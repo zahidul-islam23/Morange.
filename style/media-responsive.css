@@ -1,0 +1,124 @@
+@media (max-width: 768px) {
+    .carousel-caption {
+      position: absolute;
+      bottom: 50%;
+      left: 15%;
+      right: auto;
+      transform: translateY(50%);
+      width: 70%;
+    }
+    .carousel-caption p {
+      font-size: 16px;
+    }
+    .carousel-caption h5 {
+      font-size: 45px;
+      line-height: 48px;
+    }
+    .carousel-caption .custom-hero-btn {
+      font-size: 14px;
+    }
+  
+    .view-all {
+      position: sticky;
+    }
+    .hero-slide .carousel-inner > .carousel-item img {
+      aspect-ratio: 16/15;
+      object-fit: cover;
+    }
+    .collection-boder .nav-pills {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .book-look .featured-collection .feature-box {
+      bottom: 50%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+    }
+    .book-look .feature-box h5 {
+      margin-bottom: 10px;
+      font-size: 35px;
+      text-align: center;
+      line-height: 36px;
+    }
+    .arrival-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .arrival-content span {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .arrival-content h4 {
+      font-size: 35px;
+      line-height: 40px;
+      width: 100%;
+      font-weight: 400;
+      text-align: center;
+    }
+    .arrival-content p {
+      font-size: 15px;
+      line-height: 26px;
+      font-weight: 300;
+      color: var(--secondary-dark);
+      text-align: center;
+    }
+    .book-look,
+    .product-section,
+    .new-arrible,
+    .our-service {
+      margin: 50px 0;
+    }
+    .navbar-toggler svg {
+      height: 25px;
+      width: 25px;
+    }
+    .navbar-toggler {
+      border: 1px solid transparent;
+      padding: 5px 10px;
+    }
+    .navbar-toggler:focus {
+      border: 1px solid var(--primary-color);
+    }
+    .navbar-toggler svg path {
+      fill: var(--primary-color);
+    }
+    .our-service .serviceBox {
+      align-items: center;
+    }
+    .insta-img-box .cover-img {
+      height: 150px;
+      object-fit: cover;
+    }
+    .footer-content-menu,
+    .footer-header {
+      padding: 15px 0;
+    }
+    .navbar-brand img {
+      width: 120px;
+    }
+    .our-service .serviceBox h3 {
+      text-align: center;
+    }
+    .our-service .serviceBox p {
+      text-align: center;
+    }
+    .footer-header form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 25px 15px;
+      gap: 20px;
+    }
+    .footer-header form button {
+      background-color: var(--primary-color);
+      color: #fff;
+      border: 0;
+      padding: 9px 9px;
+    }
+  }
+  

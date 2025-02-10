@@ -1,0 +1,3586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="style/custom.css" />
+    <link rel="stylesheet" href="style/media-responsive.css">
+    <title>Morange</title>
+  </head>
+  <body>
+    <!-- marquee section start -->
+
+    <div class="announceMent-section">
+      <marquee
+        behavior=""
+        direction="left"
+        onmouseover="this.stop()"
+        onmouseout="this.start()"
+      >
+        <div
+          class="d-flex gap-5 justify-content-center align-items-center announceMent"
+        >
+          <div
+            class="dashed-text d-flex justify-content-center align-items-center"
+          >
+            <p>SUMMER SALE DISCOUNT OFF 50%</p>
+            <span></span>
+          </div>
+          <div
+            class="dashed-text d-flex justify-content-center align-items-center"
+          >
+            <p>INSTANT DISCOUNT CODE 50% OFF Morange50</p>
+            <span></span>
+          </div>
+          <div
+            class="dashed-text d-flex justify-content-center align-items-center"
+          >
+            <p>FREE SHIPPING FOR ALL ORDERS FROM $60+</p>
+            <span></span>
+          </div>
+          <div
+            class="dashed-text d-flex justify-content-center align-items-center"
+          >
+            <p>FREE WORLDWIDE SHIPPING UNTIL FURTHER NOTICE</p>
+            <span></span>
+          </div>
+          <div
+            class="dashed-text d-flex justify-content-center align-items-center"
+          >
+            <p>SUMMER SALE DISCOUNT OFF 50%</p>
+            <span></span>
+          </div>
+        </div>
+      </marquee>
+    </div>
+    <!-- marquee section end-->
+
+    <!-- nav bar start  -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./image/Logo.png" alt="" srcset="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+  
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+            />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="active" aria-current="page" href="#">new arrivals</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="#"> Dresses</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="#"> Tops</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="#"> Bottoms</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="#"> Tops</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="#"> Sets</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="#"> Outwear</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="#"> Accessories</a>
+            </li>
+          </ul>
+          <div class="d-flex iconbox">
+            <!-- drop down -->
+            <div class="dropdown">
+              <a
+                class="btn dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                USD
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">USD</a></li>
+                <li><a class="dropdown-item" href="#">EUR</a></li>
+                <li><a class="dropdown-item" href="#">AED</a></li>
+              </ul>
+            </div>
+
+            <!-- drop down -->
+            <!-- Button trigger modal -->
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- search start-->
+            <a
+              href="#"
+              class="btn"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.8779 19.2887L13.7925 13.2033C15.0565 11.7999 15.8334 9.94957 15.8334 7.91664C15.8333 3.55145 12.2819 0 7.91668 0C3.55145 0 0 3.55145 0 7.91668C0 12.2819 3.55145 15.8334 7.91668 15.8334C9.94961 15.8334 11.7999 15.0565 13.2034 13.7925L19.2888 19.8779C19.3701 19.9593 19.4768 20 19.5834 20C19.69 20 19.7966 19.9593 19.878 19.8779C20.0407 19.7152 20.0407 19.4515 19.8779 19.2887ZM7.91668 15C4.01125 15 0.833359 11.8225 0.833359 7.91668C0.833359 4.01086 4.01125 0.83332 7.91668 0.83332C11.8221 0.83332 15 4.01082 15 7.91668C15 11.8225 11.8221 15 7.91668 15Z"
+                  fill="#141416"
+                />
+              </svg>
+            </a>
+            <!-- search end -->
+
+            <!-- heart start-->
+
+            <a href="#" class="btn">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.7917 0.833313C12.5732 0.833313 10.741 2.89386 10 3.86636C9.25902 2.89386 7.42676 0.833313 5.20832 0.833313C2.33645 0.833313 0 3.4737 0 6.71874C0 8.48917 0.702734 10.1391 1.93277 11.2683C1.95066 11.2992 1.97266 11.3277 1.99828 11.3534L9.70582 19.045C9.78719 19.126 9.8934 19.1667 10 19.1667C10.1066 19.1667 10.2132 19.126 10.2946 19.0446L18.2585 11.0836L18.3407 11.0038C18.4058 10.9424 18.4701 10.8801 18.5421 10.8004C18.5722 10.7707 18.597 10.7373 18.6161 10.7011C19.5093 9.60734 20 8.19659 20 6.71874C20 3.4737 17.6636 0.833313 14.7917 0.833313ZM17.9228 10.2323C17.9114 10.2458 17.9008 10.26 17.8914 10.2746C17.8524 10.3194 17.8096 10.3589 17.7673 10.3992L9.99961 18.1612L2.6823 10.8585C2.65871 10.8121 2.62574 10.7698 2.58547 10.7344C1.47176 9.76195 0.83332 8.29831 0.83332 6.71874C0.83332 3.93308 2.79582 1.66667 5.20832 1.66667C7.59359 1.66667 9.6293 4.77784 9.64965 4.80917C9.80348 5.04679 10.1965 5.04679 10.3504 4.80917C10.3707 4.77784 12.4064 1.66667 14.7917 1.66667C17.2042 1.66667 19.1667 3.93312 19.1667 6.71874C19.1667 8.0314 18.7248 9.27937 17.9228 10.2323Z"
+                  fill="#141416"
+                />
+              </svg>
+            </a>
+
+            <!-- heart end -->
+            <!-- person start-->
+
+            <a href="#" class="btn">
+              <svg
+                width="18"
+                height="20"
+                viewBox="0 0 18 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.23454 9.93142C8.33841 9.93142 7.4624 9.66569 6.71729 9.16782C5.97219 8.66996 5.39145 7.96232 5.04851 7.13441C4.70558 6.30649 4.61585 5.39547 4.79068 4.51656C4.9655 3.63764 5.39703 2.83031 6.03069 2.19665C6.66435 1.56299 7.47169 1.13146 8.3506 0.95663C9.22951 0.781804 10.1405 0.871531 10.9684 1.21447C11.7964 1.5574 12.504 2.13814 13.0019 2.88325C13.4997 3.62835 13.7655 4.50436 13.7655 5.4005C13.7641 6.60176 13.2863 7.75345 12.4369 8.60287C11.5875 9.4523 10.4358 9.93009 9.23454 9.93142ZM9.23454 2.12816C8.58733 2.12816 7.95466 2.32008 7.41653 2.67965C6.8784 3.03922 6.45897 3.55029 6.2113 4.14823C5.96362 4.74617 5.89882 5.40413 6.02508 6.0389C6.15135 6.67367 6.46301 7.25674 6.92065 7.71438C7.3783 8.17203 7.96137 8.48369 8.59614 8.60995C9.23091 8.73622 9.88887 8.67141 10.4868 8.42374C11.0847 8.17606 11.5958 7.75664 11.9554 7.21851C12.315 6.68037 12.5069 6.0477 12.5069 5.4005C12.5059 4.53292 12.1608 3.70117 11.5473 3.08771C10.9339 2.47424 10.1021 2.12916 9.23454 2.12816Z"
+                  fill="#141416"
+                />
+                <path
+                  d="M17.1007 19.1304C16.9338 19.1304 16.7738 19.0641 16.6558 18.9461C16.5377 18.8281 16.4714 18.6681 16.4714 18.5012V16.9455C16.4701 15.7506 15.9948 14.605 15.1499 13.7601C14.305 12.9151 13.1594 12.4399 11.9644 12.4385H6.50467C5.30975 12.4399 4.16415 12.9151 3.31921 13.7601C2.47427 14.605 1.999 15.7506 1.99766 16.9455V18.5012C1.99766 18.6681 1.93136 18.8281 1.81335 18.9461C1.69533 19.0641 1.53527 19.1304 1.36837 19.1304C1.20147 19.1304 1.04141 19.0641 0.923391 18.9461C0.805375 18.8281 0.739075 18.6681 0.739075 18.5012V16.9455C0.740907 15.417 1.34894 13.9515 2.4298 12.8707C3.51067 11.7898 4.9761 11.1818 6.50467 11.1799H11.9638C13.4925 11.1816 14.9581 11.7896 16.0391 12.8704C17.1201 13.9513 17.7282 15.4169 17.73 16.9455V18.5012C17.73 18.6681 17.6637 18.8281 17.5457 18.9461C17.4277 19.0641 17.2676 19.1304 17.1007 19.1304Z"
+                  fill="#141416"
+                />
+              </svg>
+            </a>
+
+            <!-- person end -->
+            <!-- hand bag start-->
+
+            <a href="#" class="btn">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18.7213 4.2325C18.7162 4.21125 18.7162 4.19125 18.7087 4.17125C18.67 4.0625 18.6038 3.97125 18.5163 3.9C18.5087 3.8925 18.5075 3.88125 18.5 3.875L17.5 3.125V0.625C17.5 0.525 17.4713 0.435 17.43 0.35125C17.4263 0.345 17.4287 0.3375 17.425 0.33C17.4175 0.31625 17.4013 0.31 17.3937 0.29625C17.35 0.2275 17.295 0.17 17.2288 0.12375C17.2063 0.10875 17.1875 0.0925 17.1637 0.08C17.0763 0.03375 16.9812 0 16.875 0H3.125C3.01875 0 2.92375 0.03375 2.835 0.08C2.81125 0.0925 2.7925 0.1075 2.77 0.12375C2.705 0.17125 2.65 0.2275 2.60625 0.29625C2.5975 0.31 2.5825 0.31625 2.575 0.33C2.57125 0.33625 2.5725 0.345 2.57 0.35125C2.52875 0.435 2.5 0.525 2.5 0.625V3.125L1.5 3.875C1.4925 3.88125 1.49125 3.8925 1.48375 3.89875C1.39625 3.97 1.33 4.06125 1.29125 4.17C1.28375 4.19125 1.28375 4.21 1.27875 4.23125C1.2675 4.28 1.25 4.32375 1.25 4.375V17.5C1.25 18.8787 2.37125 20 3.75 20H16.25C17.6287 20 18.75 18.8787 18.75 17.5V4.375C18.75 4.32375 18.7325 4.28 18.7213 4.2325ZM4.895 2.15375L4.29375 1.25H15.7062L15.105 2.15375C14.9212 2.42875 14.9837 2.80125 15.25 3L16.25 3.75H3.75L4.75 3C5.01625 2.80125 5.08 2.42875 4.895 2.15375ZM17.5 17.5C17.5 18.1887 16.94 18.75 16.25 18.75H3.75C3.06 18.75 2.5 18.1887 2.5 17.5V5H17.5V17.5Z"
+                  fill="#141416"
+                />
+                <path
+                  d="M14.375 7.5C14.03 7.5 13.75 7.78 13.75 8.125V10C13.75 12.0675 12.0675 13.75 10 13.75C7.9325 13.75 6.25 12.0675 6.25 10V8.125C6.25 7.78 5.97 7.5 5.625 7.5C5.28 7.5 5 7.78 5 8.125V10C5 12.7575 7.2425 15 10 15C12.7575 15 15 12.7575 15 10V8.125C15 7.78 14.72 7.5 14.375 7.5Z"
+                  fill="#141416"
+                />
+              </svg>
+            </a>
+
+            <!-- hand bag end -->
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- nav bar end  -->
+
+    <!-- hero banner section start  -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide hero-slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item overlay active">
+          <img src="./image/banner-img-2.png" class="d-block w-100" alt="..." />
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center align-items-start"
+          >
+            <p>This month from $29</p>
+            <h5 class="text-start mt-md-2 mt-2 mb-md-3 mb-3">Summer outware</h5>
+            <a href="#" class="custom-hero-btn py-md-3 py-2 px-md-4 px-4">
+              Shop collection
+              <svg
+                width="16"
+                height="14"
+                viewBox="0 0 16 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5"
+                  stroke="white"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item overlay">
+          <img
+            src="./image/banner-img-2.png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center align-items-start"
+          >
+            <p>This month from $29</p>
+            <h5 class="text-start mt-md-2 mt-2 mb-md-3 mb-3">Summer outware</h5>
+            <a href="#" class="custom-hero-btn py-md-3 py-2 px-md-4 px-4">
+              Shop collection
+              <svg
+                width="16"
+                height="14"
+                viewBox="0 0 16 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5"
+                  stroke="white"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item overlay">
+          <img src="./image/banner-img-2.png" class="d-block w-100" alt="..." />
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center align-items-start"
+          >
+            <p>This month from $29</p>
+            <h5 class="text-start mt-md-2 mt-2 mb-md-3 mb-3">Summer outware</h5>
+            <a href="#" class="custom-hero-btn py-md-3 py-2 px-md-4 px-4">
+              Shop collection
+              <svg
+                width="16"
+                height="14"
+                viewBox="0 0 16 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5"
+                  stroke="white"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- hero banner section end -->
+
+    <!-- brand logo section start -->
+    <section class="container my-md-4 py-md-4 my-3 py-2">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-10 col-12">
+          <div
+            class="row d-flex justify-content-center align-items-center gap-3 gap-md-0"
+          >
+            <div class="col-lg col-5">
+              <div class="brand-logo">
+                <img src="./image/brand 1.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg col-5">
+              <div class="brand-logo">
+                <img src="./image/brand 2.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg col-5">
+              <div class="brand-logo">
+                <img src="./image/brand 5.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg col-5">
+              <div class="brand-logo">
+                <img src="./image/brand 4.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg col-5">
+              <div class="brand-logo">
+                <img src="./image/brand 3.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg col-5">
+              <div class="brand-logo">
+                <img src="./image/brand 6.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- brand logo section end -->
+
+    <!-- collection section start -->
+    <section class="container my-md-4 my-3">
+      <div
+        class="row gap-md-0 gap-3 d-flex justify-content-center align-items-center"
+      >
+        <div class="col-lg-3 col-12">
+          <div class="collection">
+            <img
+              src="./image/female 1.png"
+              class="w-100 h-100"
+              alt=""
+              srcset=""
+            />
+            <a href="#"
+              >tops
+              <svg
+                width="16"
+                height="14"
+                viewBox="0 0 16 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5"
+                  stroke="white"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12">
+          <div class="featured-collection overlay">
+            <img
+              src="./image/female 2.png"
+              class="w-100 h-100"
+              alt=""
+              srcset=""
+            />
+            <div
+              class="feature-box d-flex flex-column justify-content-center align-items-center"
+            >
+              <h5>OUTWEAR</h5>
+              <a
+                href="#"
+                class="d-flex justify-content-center align-items-center"
+                ><span class="me-2">SHOP NOW</span>
+                <svg
+                  width="16"
+                  height="14"
+                  viewBox="0 0 16 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5"
+                    stroke="white"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12">
+          <div class="collection">
+            <img
+              src="./image/female 3.png"
+              class="w-100 h-100"
+              alt=""
+              srcset=""
+            />
+            <a href="#">
+              <span> tops</span>
+              <svg
+                width="16"
+                height="14"
+                viewBox="0 0 16 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5"
+                  stroke="white"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- collection section end -->
+
+    <!-- collection tab  start-->
+
+    <section class="collectionTab">
+      <div class="container">
+        <div class="collection-boder">
+          <ul
+            class="nav nav-pills mb-3 position-relative"
+            id="pills-tab"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-home"
+                type="button"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+              >
+                NEW ARRIVALS
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                WHAT’S TRENDING
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-contact-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-contact"
+                type="button"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+              >
+                EXCLUSIVE
+              </button>
+            </li>
+            <a href="#" class="view-all"
+              >View All
+              <svg
+                width="16"
+                height="15"
+                viewBox="0 0 16 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 7.72522H15M15 7.72522L8.5 1.22522M15 7.72522L8.5 14.2252"
+                  stroke="#141416"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </ul>
+          <div class="tab-content mt-md-5 mt-3" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+            >
+              <div class="d-flex row gap-md-0 gap-4">
+                <div class="col-lg-3 col-12">
+                  <div class="collection-card p-lg-0 p-2">
+                    <div
+                      id="variantCollection1"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <!-- item start-->
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!--item end -->
+                         <!--item start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-2.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item end -->
+                         <!-- item start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-3.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item end -->
+                         <!-- item start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-4.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 3 end -->
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#variantCollection1"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Previous</span></button
+                      ><button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#variantCollection1"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="carousel-indicators" id="variant-color">
+                        <button
+                          type="button"
+                          data-bs-target="#variantCollection1"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                          variant-color-type="red"
+                        ></button
+                        ><button
+                          variant-color-type="dark"
+                          type="button"
+                          data-bs-target="#variantCollection1"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button
+                        ><button
+                          variant-color-type="gray"
+                          type="button"
+                          data-bs-target="#variantCollection1"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="about-product">
+                      <h4>Alejandra</h4>
+                      <div class="price">
+                        <p>One Shoulder Satin Maxi Dress - Red</p>
+                        <span>$168.0</span>
+                      </div>
+                    </div>
+                    <div class="variant-size d-flex">
+                      <button type="button">XXS</button
+                      ><button type="button">XS</button
+                      ><button type="button">S</button
+                      ><button type="button">M</button
+                      ><button type="button">L</button
+                      ><button type="button">XL</button
+                      ><button type="button">XXL</button
+                      ><button type="button">3XL</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                  <div class="collection-card p-lg-0 p-2">
+                    <div
+                      id="variantCollection2"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <!-- item 1 start-->
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 1 end --><!-- item 2 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-2.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 2 end --><!-- item 3 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-3.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 3 end -->
+                        <!-- item 3 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-4.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 3 end -->
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#variantCollection2"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Previous</span></button
+                      ><button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#variantCollection2"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="carousel-indicators" id="variant-color">
+                        <button
+                          type="button"
+                          data-bs-target="#variantCollection2"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                          variant-color-type="red"
+                        ></button
+                        ><button
+                          variant-color-type="dark"
+                          type="button"
+                          data-bs-target="#variantCollection2"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button
+                        ><button
+                          variant-color-type="gray"
+                          type="button"
+                          data-bs-target="#variantCollection2"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="about-product">
+                      <h4>Alejandra</h4>
+                      <div class="price">
+                        <p>One Shoulder Satin Maxi Dress - Red</p>
+                        <span>$168.0</span>
+                      </div>
+                    </div>
+                    <div class="variant-size d-flex">
+                      <button type="button">XXS</button
+                      ><button type="button">XS</button
+                      ><button type="button">S</button
+                      ><button type="button">M</button
+                      ><button type="button">L</button
+                      ><button type="button">XL</button
+                      ><button type="button">XXL</button
+                      ><button type="button">3XL</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                  <div class="collection-card p-lg-0 p-2">
+                    <div
+                      id="variantCollection3"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <!-- item 1 start-->
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 1 end --><!-- item 2 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-2.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 2 end --><!-- item 3 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-3.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 3 end --><!-- item 3 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-4.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 3 end -->
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#variantCollection3"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Previous</span></button
+                      ><button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#variantCollection3"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="carousel-indicators" id="variant-color">
+                        <button
+                          type="button"
+                          data-bs-target="#variantCollection3"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                          variant-color-type="red"
+                        ></button
+                        ><button
+                          variant-color-type="dark"
+                          type="button"
+                          data-bs-target="#variantCollection3"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button
+                        ><button
+                          variant-color-type="gray"
+                          type="button"
+                          data-bs-target="#variantCollection3"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="about-product">
+                      <h4>Alejandra</h4>
+                      <div class="price">
+                        <p>One Shoulder Satin Maxi Dress - Red</p>
+                        <span>$168.0</span>
+                      </div>
+                    </div>
+                    <div class="variant-size d-flex">
+                      <button type="button">XXS</button
+                      ><button type="button">XS</button
+                      ><button type="button">S</button
+                      ><button type="button">M</button
+                      ><button type="button">L</button
+                      ><button type="button">XL</button
+                      ><button type="button">XXL</button
+                      ><button type="button">3XL</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                  <div class="collection-card p-lg-0 p-2">
+                    <div
+                      id="variantCollection4"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <!-- item 1 start-->
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 1 end --><!-- item 2 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-2.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 2 end --><!-- item 3 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-3.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 3 end -->
+                         <!-- item 3 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-4.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 3 end -->
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#variantCollection4"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Previous</span></button
+                      ><button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#variantCollection4"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="carousel-indicators" id="variant-color">
+                        <button
+                          type="button"
+                          data-bs-target="#variantCollection4"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                          variant-color-type="red"
+                        ></button
+                        ><button
+                          variant-color-type="dark"
+                          type="button"
+                          data-bs-target="#variantCollection4"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button
+                        ><button
+                          variant-color-type="gray"
+                          type="button"
+                          data-bs-target="#variantCollection4"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="about-product">
+                      <h4>Alejandra</h4>
+                      <div class="price">
+                        <p>One Shoulder Satin Maxi Dress - Red</p>
+                        <span>$168.0</span>
+                      </div>
+                    </div>
+                    <div class="variant-size d-flex">
+                      <button type="button">XXS</button
+                      ><button type="button">XS</button
+                      ><button type="button">S</button
+                      ><button type="button">M</button
+                      ><button type="button">L</button
+                      ><button type="button">XL</button
+                      ><button type="button">XXL</button
+                      ><button type="button">3XL</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-profile"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+            >
+              <div class="d-flex row gap-md-0 gap-4">
+                <div class="col-lg-3 col-12">
+                  <div class="collection-card p-lg-0 p-2">
+                    <div
+                      id="variantCollection1"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <!-- item 1 start-->
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 1 end --><!-- item 2 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 2 end --><!-- item 3 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 3 end -->
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#variantCollection1"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Previous</span></button
+                      ><button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#variantCollection1"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="carousel-indicators" id="variant-color">
+                        <button
+                          type="button"
+                          data-bs-target="#variantCollection1"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                          variant-color-type="red"
+                        ></button
+                        ><button
+                          variant-color-type="dark"
+                          type="button"
+                          data-bs-target="#variantCollection1"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button
+                        ><button
+                          variant-color-type="gray"
+                          type="button"
+                          data-bs-target="#variantCollection1"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="about-product">
+                      <h4>Alejandra</h4>
+                      <div class="price">
+                        <p>One Shoulder Satin Maxi Dress - Red</p>
+                        <span>$168.0</span>
+                      </div>
+                    </div>
+                    <div class="variant-size d-flex">
+                      <button type="button">XXS</button
+                      ><button type="button">XS</button
+                      ><button type="button">S</button
+                      ><button type="button">M</button
+                      ><button type="button">L</button
+                      ><button type="button">XL</button
+                      ><button type="button">XXL</button
+                      ><button type="button">3XL</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                  <div class="collection-card p-lg-0 p-2">
+                    <div
+                      id="variantCollection2"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <!-- item 1 start-->
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 1 end --><!-- item 2 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 2 end --><!-- item 3 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 3 end -->
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#variantCollection2"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Previous</span></button
+                      ><button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#variantCollection2"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="carousel-indicators" id="variant-color">
+                        <button
+                          type="button"
+                          data-bs-target="#variantCollection2"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                          variant-color-type="red"
+                        ></button
+                        ><button
+                          variant-color-type="dark"
+                          type="button"
+                          data-bs-target="#variantCollection2"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button
+                        ><button
+                          variant-color-type="gray"
+                          type="button"
+                          data-bs-target="#variantCollection2"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="about-product">
+                      <h4>Alejandra</h4>
+                      <div class="price">
+                        <p>One Shoulder Satin Maxi Dress - Red</p>
+                        <span>$168.0</span>
+                      </div>
+                    </div>
+                    <div class="variant-size d-flex">
+                      <button type="button">XXS</button
+                      ><button type="button">XS</button
+                      ><button type="button">S</button
+                      ><button type="button">M</button
+                      ><button type="button">L</button
+                      ><button type="button">XL</button
+                      ><button type="button">XXL</button
+                      ><button type="button">3XL</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                  <div class="collection-card p-lg-0 p-2">
+                    <div
+                      id="variantCollection3"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <!-- item 1 start-->
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 1 end --><!-- item 2 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 2 end --><!-- item 3 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 3 end -->
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#variantCollection3"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Previous</span></button
+                      ><button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#variantCollection3"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="carousel-indicators" id="variant-color">
+                        <button
+                          type="button"
+                          data-bs-target="#variantCollection3"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                          variant-color-type="red"
+                        ></button
+                        ><button
+                          variant-color-type="dark"
+                          type="button"
+                          data-bs-target="#variantCollection3"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button
+                        ><button
+                          variant-color-type="gray"
+                          type="button"
+                          data-bs-target="#variantCollection3"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="about-product">
+                      <h4>Alejandra</h4>
+                      <div class="price">
+                        <p>One Shoulder Satin Maxi Dress - Red</p>
+                        <span>$168.0</span>
+                      </div>
+                    </div>
+                    <div class="variant-size d-flex">
+                      <button type="button">XXS</button
+                      ><button type="button">XS</button
+                      ><button type="button">S</button
+                      ><button type="button">M</button
+                      ><button type="button">L</button
+                      ><button type="button">XL</button
+                      ><button type="button">XXL</button
+                      ><button type="button">3XL</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                  <div class="collection-card p-lg-0 p-2">
+                    <div
+                      id="variantCollection4"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <!-- item 1 start-->
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 1 end --><!-- item 2 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 2 end --><!-- item 3 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 3 end -->
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#variantCollection4"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Previous</span></button
+                      ><button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#variantCollection4"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="carousel-indicators" id="variant-color">
+                        <button
+                          type="button"
+                          data-bs-target="#variantCollection4"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                          variant-color-type="red"
+                        ></button
+                        ><button
+                          variant-color-type="dark"
+                          type="button"
+                          data-bs-target="#variantCollection4"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button
+                        ><button
+                          variant-color-type="gray"
+                          type="button"
+                          data-bs-target="#variantCollection4"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="about-product">
+                      <h4>Alejandra</h4>
+                      <div class="price">
+                        <p>One Shoulder Satin Maxi Dress - Red</p>
+                        <span>$168.0</span>
+                      </div>
+                    </div>
+                    <div class="variant-size d-flex">
+                      <button type="button">XXS</button
+                      ><button type="button">XS</button
+                      ><button type="button">S</button
+                      ><button type="button">M</button
+                      ><button type="button">L</button
+                      ><button type="button">XL</button
+                      ><button type="button">XXL</button
+                      ><button type="button">3XL</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-contact"
+              role="tabpanel"
+              aria-labelledby="pills-contact-tab"
+            >
+              <div class="d-flex row gap-md-0 gap-4">
+                <div class="col-lg-3 col-12">
+                  <div class="collection-card p-lg-0 p-2">
+                    <div
+                      id="variantCollection1"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <!-- item 1 start-->
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 1 end --><!-- item 2 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 2 end --><!-- item 3 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 3 end -->
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#variantCollection1"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Previous</span></button
+                      ><button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#variantCollection1"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="carousel-indicators" id="variant-color">
+                        <button
+                          type="button"
+                          data-bs-target="#variantCollection1"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                          variant-color-type="red"
+                        ></button
+                        ><button
+                          variant-color-type="dark"
+                          type="button"
+                          data-bs-target="#variantCollection1"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button
+                        ><button
+                          variant-color-type="gray"
+                          type="button"
+                          data-bs-target="#variantCollection1"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="about-product">
+                      <h4>Alejandra</h4>
+                      <div class="price">
+                        <p>One Shoulder Satin Maxi Dress - Red</p>
+                        <span>$168.0</span>
+                      </div>
+                    </div>
+                    <div class="variant-size d-flex">
+                      <button type="button">XXS</button
+                      ><button type="button">XS</button
+                      ><button type="button">S</button
+                      ><button type="button">M</button
+                      ><button type="button">L</button
+                      ><button type="button">XL</button
+                      ><button type="button">XXL</button
+                      ><button type="button">3XL</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                  <div class="collection-card p-lg-0 p-2">
+                    <div
+                      id="variantCollection2"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <!-- item 1 start-->
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 1 end --><!-- item 2 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 2 end --><!-- item 3 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 3 end -->
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#variantCollection2"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Previous</span></button
+                      ><button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#variantCollection2"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="carousel-indicators" id="variant-color">
+                        <button
+                          type="button"
+                          data-bs-target="#variantCollection2"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                          variant-color-type="red"
+                        ></button
+                        ><button
+                          variant-color-type="dark"
+                          type="button"
+                          data-bs-target="#variantCollection2"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button
+                        ><button
+                          variant-color-type="gray"
+                          type="button"
+                          data-bs-target="#variantCollection2"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="about-product">
+                      <h4>Alejandra</h4>
+                      <div class="price">
+                        <p>One Shoulder Satin Maxi Dress - Red</p>
+                        <span>$168.0</span>
+                      </div>
+                    </div>
+                    <div class="variant-size d-flex">
+                      <button type="button">XXS</button
+                      ><button type="button">XS</button
+                      ><button type="button">S</button
+                      ><button type="button">M</button
+                      ><button type="button">L</button
+                      ><button type="button">XL</button
+                      ><button type="button">XXL</button
+                      ><button type="button">3XL</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                  <div class="collection-card p-lg-0 p-2">
+                    <div
+                      id="variantCollection3"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <!-- item 1 start-->
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 1 end --><!-- item 2 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 2 end --><!-- item 3 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 3 end -->
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#variantCollection3"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Previous</span></button
+                      ><button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#variantCollection3"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="carousel-indicators" id="variant-color">
+                        <button
+                          type="button"
+                          data-bs-target="#variantCollection3"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                          variant-color-type="red"
+                        ></button
+                        ><button
+                          variant-color-type="dark"
+                          type="button"
+                          data-bs-target="#variantCollection3"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button
+                        ><button
+                          variant-color-type="gray"
+                          type="button"
+                          data-bs-target="#variantCollection3"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="about-product">
+                      <h4>Alejandra</h4>
+                      <div class="price">
+                        <p>One Shoulder Satin Maxi Dress - Red</p>
+                        <span>$168.0</span>
+                      </div>
+                    </div>
+                    <div class="variant-size d-flex">
+                      <button type="button">XXS</button
+                      ><button type="button">XS</button
+                      ><button type="button">S</button
+                      ><button type="button">M</button
+                      ><button type="button">L</button
+                      ><button type="button">XL</button
+                      ><button type="button">XXL</button
+                      ><button type="button">3XL</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                  <div class="collection-card p-lg-0 p-2">
+                    <div
+                      id="variantCollection4"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <!-- item 1 start-->
+                        <div class="carousel-item active">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 1 end --><!-- item 2 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 2 end --><!-- item 3 start -->
+                        <div class="carousel-item">
+                          <img
+                            src="./image/products/collection-1.png"
+                            class="d-block img-fluid w-100"
+                            alt=""
+                            srcset=""
+                          />
+                          <div
+                            class="multi-collection d-flex justify-content-center align-content-center"
+                          >
+                            <img
+                              src="./image/collection-icon.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <h5>20% OFF AT CHECKOUT</h5>
+                          </div>
+                          <div class="wishlist-icon">
+                            <img src="./image/heart.png" alt="" />
+                          </div>
+                        </div>
+                        <!-- item 3 end -->
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#variantCollection4"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Previous</span></button
+                      ><button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#variantCollection4"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span
+                        ><span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="carousel-indicators" id="variant-color">
+                        <button
+                          type="button"
+                          data-bs-target="#variantCollection4"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                          variant-color-type="red"
+                        ></button
+                        ><button
+                          variant-color-type="dark"
+                          type="button"
+                          data-bs-target="#variantCollection4"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button
+                        ><button
+                          variant-color-type="gray"
+                          type="button"
+                          data-bs-target="#variantCollection4"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                    </div>
+                    <div class="about-product">
+                      <h4>Alejandra</h4>
+                      <div class="price">
+                        <p>One Shoulder Satin Maxi Dress - Red</p>
+                        <span>$168.0</span>
+                      </div>
+                    </div>
+                    <div class="variant-size d-flex">
+                      <button type="button">XXS</button
+                      ><button type="button">XS</button
+                      ><button type="button">S</button
+                      ><button type="button">M</button
+                      ><button type="button">L</button
+                      ><button type="button">XL</button
+                      ><button type="button">XXL</button
+                      ><button type="button">3XL</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- collection tab  end-->
+
+    <!-- collection section start -->
+    <section class="container my-md-5 my-3">
+      <div
+        class="row gap-md-0 gap-3 d-flex justify-content-center align-items-center"
+      >
+        <div class="col-lg-3 col-12">
+          <div class="collection">
+            <img
+              src="./image/collection-5.png"
+              class="w-100 h-100"
+              alt=""
+              srcset=""
+            />
+            <a href="#"
+              >tops
+              <svg
+                width="16"
+                height="14"
+                viewBox="0 0 16 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5"
+                  stroke="white"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg col-12">
+          <div class="collection">
+            <img
+              src="./image/collection-6 (2).png"
+              class="w-100 h-100"
+              alt=""
+              srcset=""
+            />
+            <a href="#">
+              <span> tops</span>
+              <svg
+                width="16"
+                height="14"
+                viewBox="0 0 16 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5"
+                  stroke="white"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg col-12">
+          <div class="featured-collection overlay">
+            <img
+              src="./image/collection-7.png"
+              class="w-100 h-100"
+              alt=""
+              srcset=""
+            />
+            <div
+              class="feature-box d-flex flex-column justify-content-center align-items-center"
+            >
+              <h5>OUTWEAR</h5>
+              <a
+                href="#"
+                class="d-flex justify-content-center align-items-center"
+                ><span class="me-2">SHOP NOW</span>
+                <svg
+                  width="16"
+                  height="14"
+                  viewBox="0 0 16 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5"
+                    stroke="white"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- collection section end -->
+
+    <!-- product section start -->
+
+    <section class="product-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-12">
+            <div class="collection-card p-lg-0 p-2">
+              <div
+                id="variantCollection3"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <!-- item 1 start-->
+                  <div class="carousel-item active">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 1 end --><!-- item 2 start -->
+                  <div class="carousel-item">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 2 end --><!-- item 3 start -->
+                  <div class="carousel-item">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 3 end -->
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#variantCollection3"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="visually-hidden">Previous</span></button
+                ><button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#variantCollection3"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="visually-hidden">Next</span>
+                </button>
+                <div class="carousel-indicators" id="variant-color">
+                  <button
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                    variant-color-type="red"
+                  ></button
+                  ><button
+                    variant-color-type="dark"
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button
+                  ><button
+                    variant-color-type="gray"
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+              </div>
+              <div class="about-product">
+                <h4>Alejandra</h4>
+                <div class="price">
+                  <p>One Shoulder Satin Maxi Dress - Red</p>
+                  <span>$168.0</span>
+                </div>
+              </div>
+              <div class="variant-size d-flex">
+                <button type="button">XXS</button
+                ><button type="button">XS</button
+                ><button type="button">S</button><button type="button">M</button
+                ><button type="button">L</button
+                ><button type="button">XL</button
+                ><button type="button">XXL</button
+                ><button type="button">3XL</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <div class="collection-card p-lg-0 p-2">
+              <div
+                id="variantCollection3"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <!-- item 1 start-->
+                  <div class="carousel-item active">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 1 end --><!-- item 2 start -->
+                  <div class="carousel-item">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 2 end --><!-- item 3 start -->
+                  <div class="carousel-item">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 3 end -->
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#variantCollection3"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="visually-hidden">Previous</span></button
+                ><button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#variantCollection3"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="visually-hidden">Next</span>
+                </button>
+                <div class="carousel-indicators" id="variant-color">
+                  <button
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                    variant-color-type="red"
+                  ></button
+                  ><button
+                    variant-color-type="dark"
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button
+                  ><button
+                    variant-color-type="gray"
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+              </div>
+              <div class="about-product">
+                <h4>Alejandra</h4>
+                <div class="price">
+                  <p>One Shoulder Satin Maxi Dress - Red</p>
+                  <span>$168.0</span>
+                </div>
+              </div>
+              <div class="variant-size d-flex">
+                <button type="button">XXS</button
+                ><button type="button">XS</button
+                ><button type="button">S</button><button type="button">M</button
+                ><button type="button">L</button
+                ><button type="button">XL</button
+                ><button type="button">XXL</button
+                ><button type="button">3XL</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <div class="collection-card p-lg-0 p-2">
+              <div
+                id="variantCollection3"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <!-- item 1 start-->
+                  <div class="carousel-item active">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 1 end --><!-- item 2 start -->
+                  <div class="carousel-item">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 2 end --><!-- item 3 start -->
+                  <div class="carousel-item">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 3 end -->
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#variantCollection3"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="visually-hidden">Previous</span></button
+                ><button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#variantCollection3"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="visually-hidden">Next</span>
+                </button>
+                <div class="carousel-indicators" id="variant-color">
+                  <button
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                    variant-color-type="red"
+                  ></button
+                  ><button
+                    variant-color-type="dark"
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button
+                  ><button
+                    variant-color-type="gray"
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+              </div>
+              <div class="about-product">
+                <h4>Alejandra</h4>
+                <div class="price">
+                  <p>One Shoulder Satin Maxi Dress - Red</p>
+                  <span>$168.0</span>
+                </div>
+              </div>
+              <div class="variant-size d-flex">
+                <button type="button">XXS</button
+                ><button type="button">XS</button
+                ><button type="button">S</button><button type="button">M</button
+                ><button type="button">L</button
+                ><button type="button">XL</button
+                ><button type="button">XXL</button
+                ><button type="button">3XL</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <div class="collection-card p-lg-0 p-2">
+              <div
+                id="variantCollection3"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <!-- item 1 start-->
+                  <div class="carousel-item active">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 1 end --><!-- item 2 start -->
+                  <div class="carousel-item">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 2 end --><!-- item 3 start -->
+                  <div class="carousel-item">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 3 end -->
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#variantCollection3"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="visually-hidden">Previous</span></button
+                ><button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#variantCollection3"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="visually-hidden">Next</span>
+                </button>
+                <div class="carousel-indicators" id="variant-color">
+                  <button
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                    variant-color-type="red"
+                  ></button
+                  ><button
+                    variant-color-type="dark"
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button
+                  ><button
+                    variant-color-type="gray"
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+              </div>
+              <div class="about-product">
+                <h4>Alejandra</h4>
+                <div class="price">
+                  <p>One Shoulder Satin Maxi Dress - Red</p>
+                  <span>$168.0</span>
+                </div>
+              </div>
+              <div class="variant-size d-flex">
+                <button type="button">XXS</button
+                ><button type="button">XS</button
+                ><button type="button">S</button><button type="button">M</button
+                ><button type="button">L</button
+                ><button type="button">XL</button
+                ><button type="button">XXL</button
+                ><button type="button">3XL</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product section end -->
+
+    <!-- book look section start -->
+    <section class="book-look">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <div class="featured-collection overlay">
+              <img src="./image/female 2.png" class="w-100" alt="" srcset="" />
+              <div
+                class="feature-box d-flex flex-column justify-content-center align-items-md-start align-items-center"
+              >
+                <span>Shop By</span>
+                <h5>Summer Dresses</h5>
+                <a
+                  href="#"
+                  class="d-flex justify-content-center align-items-center custom-shope-button" 
+                  >SHOP NOW
+                  <svg
+                    width="16"
+                    height="14"
+                    viewBox="0 0 16 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5"
+                      stroke="white"
+                      stroke-linejoin="round"
+                    ></path></svg
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-12">
+            <div class="collection-card p-lg-0 p-2">
+              <div
+                id="variantCollection3"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <!-- item 1 start-->
+                  <div class="carousel-item active">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 1 end --><!-- item 2 start -->
+                  <div class="carousel-item">
+                    <img
+                      src="./image/products/collection-2.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 2 end --><!-- item 3 start -->
+                  <div class="carousel-item">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 3 end -->
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#variantCollection3"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="visually-hidden">Previous</span></button
+                ><button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#variantCollection3"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="visually-hidden">Next</span>
+                </button>
+                <div class="carousel-indicators" id="variant-color">
+                  <button
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                    variant-color-type="red"
+                  ></button
+                  ><button
+                    variant-color-type="dark"
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button
+                  ><button
+                    variant-color-type="gray"
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+              </div>
+              <div class="about-product">
+                <h4>Alejandra</h4>
+                <div class="price">
+                  <p>One Shoulder Satin Maxi Dress - Red</p>
+                  <span>$168.0</span>
+                </div>
+              </div>
+              <div class="variant-size d-flex">
+                <button type="button">XXS</button
+                ><button type="button">XS</button
+                ><button type="button">S</button><button type="button">M</button
+                ><button type="button">L</button
+                ><button type="button">XL</button
+                ><button type="button">XXL</button
+                ><button type="button">3XL</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <div class="collection-card p-lg-0 p-2">
+              <div
+                id="variantCollection3"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <!-- item 1 start-->
+                  <div class="carousel-item active">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 1 end --><!-- item 2 start -->
+                  <div class="carousel-item">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 2 end --><!-- item 3 start -->
+                  <div class="carousel-item">
+                    <img
+                      src="./image/products/collection-1.png"
+                      class="d-block img-fluid w-100"
+                      alt=""
+                      srcset=""
+                    />
+                    <div
+                      class="multi-collection d-flex justify-content-center align-content-center"
+                    >
+                      <img src="./image/collection-icon.png" alt="" srcset="" />
+                      <h5>20% OFF AT CHECKOUT</h5>
+                    </div>
+                    <div class="wishlist-icon">
+                      <img src="./image/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <!-- item 3 end -->
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#variantCollection3"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="visually-hidden">Previous</span></button
+                ><button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#variantCollection3"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="visually-hidden">Next</span>
+                </button>
+                <div class="carousel-indicators" id="variant-color">
+                  <button
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                    variant-color-type="red"
+                  ></button
+                  ><button
+                    variant-color-type="dark"
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button
+                  ><button
+                    variant-color-type="gray"
+                    type="button"
+                    data-bs-target="#variantCollection3"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+              </div>
+              <div class="about-product">
+                <h4>Alejandra</h4>
+                <div class="price">
+                  <p>One Shoulder Satin Maxi Dress - Red</p>
+                  <span>$168.0</span>
+                </div>
+              </div>
+              <div class="variant-size d-flex">
+                <button type="button">XXS</button
+                ><button type="button">XS</button
+                ><button type="button">S</button><button type="button">M</button
+                ><button type="button">L</button
+                ><button type="button">XL</button
+                ><button type="button">XXL</button
+                ><button type="button">3XL</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- book look section end -->
+
+    <!-- new arriaval section start -->
+    <section class="new-arrible">
+      <div class="container">
+        <div class="row gap-lg-0 gap-4">
+          <div class="col-lg-7 col-12">
+            <img src="./image/new-arrival.png" alt="" srcset="" />
+          </div>
+          <div
+            class="col-lg-5 col-12 d-flex justify-content-center align-items-center ps-lg-4 ps-2"
+          >
+            <div class="arrival-content">
+              <span>new arrival</span>
+
+              <h4>Winter Collection</h4>
+              <p>
+                Lorem ipsum is simply dummy text of the printing typesetting
+                industry. Lorem ipsum has been standard dummy text. Lorem ipsum
+                has been standard.
+              </p>
+              <a href="#" class="arrival-btn"> Discover Now </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- new arriaval section end-->
+
+    <!--our service start  -->
+
+    <section class="our-service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-6 p-0">
+            <div class="serviceBox">
+              <svg
+                width="30"
+                height="31"
+                viewBox="0 0 30 31"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21.7969 8.19385H18.0469V6.08447C18.0469 5.82666 17.8359 5.61572 17.5781 5.61572H1.875C1.61719 5.61572 1.40625 5.82666 1.40625 6.08447V21.7876C1.40625 22.0454 1.61719 22.2563 1.875 22.2563H4.25391C4.47656 23.6509 5.68945 24.7173 7.14844 24.7173C8.60742 24.7173 9.81445 23.6509 10.043 22.2563H17.5781H19.957C20.1797 23.6509 21.3926 24.7173 22.8516 24.7173C24.3105 24.7173 25.5176 23.6509 25.7461 22.2563H28.125C28.3828 22.2563 28.5938 22.0454 28.5938 21.7876V14.9907C28.5938 11.2407 25.5469 8.19385 21.7969 8.19385ZM27.6445 14.5806H23.0801C22.1074 14.5806 21.3105 13.7896 21.3105 12.811V9.13135H21.7969C24.8906 9.13135 27.4277 11.5396 27.6445 14.5806ZM17.1094 6.55322V17.0415H2.34375V6.55322H17.1094ZM4.25391 21.3188H2.34375V17.979H17.1094V21.3188H10.043C9.82031 19.9243 8.60742 18.8579 7.14844 18.8579C5.68945 18.8579 4.48242 19.9243 4.25391 21.3188ZM7.14844 23.7798C6.05273 23.7798 5.15625 22.8833 5.15625 21.7876C5.15625 20.6919 6.05273 19.7954 7.14844 19.7954C8.24414 19.7954 9.14062 20.6919 9.14062 21.7876C9.14062 22.8833 8.24414 23.7798 7.14844 23.7798ZM22.8516 23.7798C21.7559 23.7798 20.8594 22.8833 20.8594 21.7876C20.8594 20.6919 21.7559 19.7954 22.8516 19.7954C23.9473 19.7954 24.8438 20.6919 24.8438 21.7876C24.8438 22.8833 23.9473 23.7798 22.8516 23.7798ZM25.7461 21.3188C25.5234 19.9243 24.3105 18.8579 22.8516 18.8579C21.3926 18.8579 20.1855 19.9243 19.957 21.3188H18.0469V9.13135H20.373V12.811C20.373 14.3052 21.5859 15.5181 23.0801 15.5181H27.6562V21.3188H25.7461Z"
+                  fill="#141416"
+                />
+              </svg>
+              <h3>FREE DELIVERY</h3>
+              <p>for orders over $60</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 p-0">
+            <div class="serviceBox">
+              <svg
+                width="30"
+                height="31"
+                viewBox="0 0 30 31"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24.2578 15.2251C24.2578 10.1216 20.1035 5.96729 15 5.96729C9.89648 5.96729 5.74219 10.1216 5.74219 15.2251C5.74219 20.3286 9.89648 24.4829 15 24.4829C20.1035 24.4829 24.2578 20.3286 24.2578 15.2251ZM6.67969 15.2251C6.67969 10.6372 10.4121 6.90479 15 6.90479C19.5879 6.90479 23.3203 10.6372 23.3203 15.2251C23.3203 19.813 19.5879 23.5454 15 23.5454C10.4121 23.5454 6.67969 19.813 6.67969 15.2251Z"
+                  fill="#141416"
+                />
+                <path
+                  d="M27.0117 11.8267H26.0918C24.6387 7.08057 20.2148 3.62354 15 3.62354C9.78516 3.62354 5.36133 7.08057 3.9082 11.8267H2.98828C2.11523 11.8267 1.40625 12.5356 1.40625 13.4087V17.0415C1.40625 17.9146 2.11523 18.6235 2.98828 18.6235H4.25977C4.40625 18.6235 4.54102 18.5532 4.63477 18.4419C4.72852 18.3306 4.75195 18.1724 4.7168 18.0317C4.45898 17.1177 4.33594 16.1743 4.33594 15.2251C4.33594 9.34229 9.11719 4.56104 15 4.56104C20.8828 4.56104 25.6641 9.34229 25.6641 15.2251C25.6641 20.8384 21.3047 25.4556 15.791 25.8599C15.627 25.5962 15.334 25.4204 15 25.4204C14.4844 25.4204 14.0625 25.8423 14.0625 26.3579C14.0625 26.8735 14.4844 27.2954 15 27.2954C15.3574 27.2954 15.668 27.0903 15.8262 26.7974C20.6777 26.4517 24.7148 23.1177 26.0918 18.6235H27.0117C27.8848 18.6235 28.5938 17.9146 28.5938 17.0415V13.4087C28.5938 12.5356 27.8848 11.8267 27.0117 11.8267ZM2.98828 17.686C2.63086 17.686 2.34375 17.3989 2.34375 17.0415V13.4087C2.34375 13.0513 2.63086 12.7642 2.98828 12.7642H3.66211C3.49219 13.5552 3.39844 14.3813 3.39844 15.2251C3.39844 16.0571 3.48633 16.8774 3.66211 17.686H2.98828ZM27.6562 17.0415C27.6562 17.3989 27.3691 17.686 27.0117 17.686H26.3379C26.5078 16.895 26.6016 16.0688 26.6016 15.2251C26.6016 14.3813 26.5078 13.5552 26.3379 12.7642H27.0117C27.3691 12.7642 27.6562 13.0513 27.6562 13.4087V17.0415Z"
+                  fill="#141416"
+                />
+              </svg>
+
+              <h3>After-Sale Service</h3>
+              <p>24/7</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 p-0">
+            <div class="serviceBox">
+              <svg
+                width="30"
+                height="31"
+                viewBox="0 0 30 31"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M29.5 14.9709H29V9.47529C29 8.37249 28.1031 7.4753 27.0001 7.4753H25.9499L24.522 4.27655C24.4092 4.02507 24.1133 3.91058 23.8618 4.02384L19.7491 5.85911L18.0313 2.25988C17.9126 2.01132 17.6157 1.90491 17.3653 2.0238L5.90777 7.47525H1.99998C0.896953 7.4753 0 8.37255 0 9.47534V26.4753C0 27.5781 0.896953 28.4753 1.99998 28.4753H27C28.103 28.4753 29 27.5781 29 26.4753V20.9709H29.5C29.7763 20.9709 29.9999 20.747 29.9999 20.4709V15.4709C30 15.1948 29.7763 14.9709 29.5 14.9709ZM23.8125 5.14087L24.8547 7.47536H20.5204L20.1799 6.76181L23.8125 5.14087ZM17.3438 3.14136L19.0464 6.70843C19.0479 6.71195 19.0472 6.71575 19.0488 6.71921C19.0508 6.72372 19.0549 6.72636 19.0571 6.73075L19.4125 7.4753H8.23494L17.3438 3.14136ZM28 26.4753C28 27.0269 27.5513 27.4753 27 27.4753H1.99998C1.44873 27.4753 0.999961 27.0269 0.999961 26.4753V9.47534C0.999961 8.9238 1.44867 8.47532 1.99998 8.47532H25.6243C25.6249 8.47532 25.6254 8.47556 25.626 8.47556C25.6263 8.47556 25.6267 8.47532 25.6271 8.47532H27C27.5512 8.47532 28 8.9238 28 9.47534V14.971H23C21.897 14.971 21.0001 15.8682 21.0001 16.9709V18.9709C21.0001 20.0737 21.897 20.9709 23 20.9709H28V26.4753ZM29 19.9709H28.5024C28.5015 19.9709 28.5008 19.9705 28.5 19.9705C28.4992 19.9705 28.4984 19.9709 28.4976 19.9709H23C22.4487 19.9709 22 19.5225 22 18.9709V16.9709C22 16.4195 22.4487 15.9709 23 15.9709H29V19.9709Z"
+                  fill="#141416"
+                />
+              </svg>
+
+              <h3>Buyer Protection</h3>
+              <p>100% secure payment system</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 p-0">
+            <div class="serviceBox">
+              <svg
+                width="30"
+                height="31"
+                viewBox="0 0 30 31"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_14_59)">
+                  <path
+                    d="M10.3125 18.5064C10.5906 18.5065 10.8625 18.424 11.0938 18.2695C11.3251 18.115 11.5053 17.8954 11.6118 17.6385C11.7183 17.3816 11.7462 17.0988 11.6919 16.826C11.6377 16.5532 11.5038 16.3026 11.3072 16.106C11.0392 15.8505 10.6832 15.708 10.313 15.708C9.94274 15.708 9.58672 15.8505 9.31874 16.106C9.12217 16.3026 8.98829 16.5531 8.93404 16.8258C8.87979 17.0985 8.9076 17.3812 9.01395 17.6381C9.1203 17.895 9.30043 18.1146 9.53156 18.2691C9.76269 18.4237 10.0344 18.5063 10.3125 18.5064ZM9.98109 16.7688C10.069 16.6809 10.1882 16.6315 10.3125 16.6315C10.4368 16.6315 10.556 16.6809 10.6439 16.7688C10.7318 16.8567 10.7811 16.9759 10.7811 17.1002C10.7811 17.2245 10.7318 17.3437 10.6439 17.4316C10.5547 17.5169 10.436 17.5645 10.3125 17.5645C10.189 17.5645 10.0703 17.5169 9.98109 17.4316C9.89321 17.3437 9.84385 17.2245 9.84385 17.1002C9.84385 16.9759 9.89321 16.8567 9.98109 16.7688Z"
+                    fill="#141416"
+                  />
+                  <path
+                    d="M11.3067 21.731C11.0387 21.4755 10.6827 21.333 10.3125 21.333C9.94226 21.333 9.58624 21.4755 9.31826 21.731C9.12162 21.9276 8.98771 22.1782 8.93347 22.451C8.87923 22.7238 8.90709 23.0065 9.01353 23.2634C9.11997 23.5204 9.30022 23.74 9.53147 23.8945C9.76272 24.049 10.0346 24.1315 10.3127 24.1315C10.5908 24.1315 10.8627 24.049 11.094 23.8945C11.3252 23.74 11.5055 23.5204 11.6119 23.2634C11.7183 23.0065 11.7462 22.7238 11.692 22.451C11.6377 22.1782 11.5033 21.9276 11.3067 21.731ZM10.6439 23.0566C10.5547 23.1419 10.4359 23.1895 10.3125 23.1895C10.189 23.1895 10.0703 23.1419 9.98107 23.0566C9.9363 23.0133 9.90059 22.9616 9.87603 22.9044C9.85146 22.8472 9.83853 22.7857 9.83799 22.7235C9.83745 22.6612 9.84931 22.5995 9.87288 22.5419C9.89644 22.4843 9.93125 22.432 9.97526 22.388C10.0193 22.3439 10.0716 22.3091 10.1292 22.2856C10.1868 22.262 10.2486 22.2501 10.3108 22.2507C10.373 22.2512 10.4345 22.2642 10.4917 22.2887C10.5489 22.3133 10.6006 22.349 10.6439 22.3938C10.7318 22.4817 10.7811 22.6009 10.7811 22.7252C10.7811 22.8495 10.7318 22.9687 10.6439 23.0566Z"
+                    fill="#141416"
+                  />
+                  <path
+                    d="M14.0625 19.4438H6.5625C6.43818 19.4438 6.31895 19.4932 6.23104 19.5811C6.14314 19.669 6.09375 19.7883 6.09375 19.9126C6.09375 20.0369 6.14314 20.1561 6.23104 20.2441C6.31895 20.332 6.43818 20.3813 6.5625 20.3813H14.0625C14.1868 20.3813 14.306 20.332 14.394 20.2441C14.4819 20.1561 14.5312 20.0369 14.5312 19.9126C14.5312 19.7883 14.4819 19.669 14.394 19.5811C14.306 19.4932 14.1868 19.4438 14.0625 19.4438Z"
+                    fill="#141416"
+                  />
+                  <path
+                    d="M29.5312 5.8501C29.4069 5.8501 29.2877 5.89948 29.1998 5.98739C29.1119 6.0753 29.0625 6.19453 29.0625 6.31885V15.2607L15.7233 28.6046C15.6785 28.6479 15.6428 28.6996 15.6182 28.7568C15.5937 28.814 15.5807 28.8755 15.5802 28.9377C15.5796 29 15.5915 29.0617 15.6151 29.1193C15.6386 29.1769 15.6735 29.2292 15.7175 29.2733C15.7615 29.3173 15.8138 29.3521 15.8714 29.3756C15.929 29.3992 15.9908 29.4111 16.053 29.4105C16.1152 29.41 16.1767 29.3971 16.2339 29.3725C16.2911 29.3479 16.3428 29.3122 16.3861 29.2674L29.8626 15.7876C29.9063 15.7439 29.941 15.692 29.9645 15.6349C29.9881 15.5778 30.0002 15.5166 30 15.4548V6.31885C30 6.19453 29.9506 6.0753 29.8627 5.98739C29.7748 5.89948 29.6556 5.8501 29.5312 5.8501Z"
+                    fill="#141416"
+                  />
+                  <path
+                    d="M27.1875 14.2877V3.70051L29.8626 1.02535C29.948 0.936946 29.9953 0.818539 29.9942 0.695634C29.9931 0.572729 29.9438 0.455161 29.8569 0.368251C29.77 0.281341 29.6525 0.232043 29.5296 0.230975C29.4067 0.229907 29.2882 0.277154 29.1998 0.362541L26.5247 3.0377H15.9375C15.8132 3.03772 15.694 3.08713 15.6061 3.17504L0.137335 18.6438C0.0494582 18.7317 9.15527e-05 18.8509 9.15527e-05 18.9752C9.15527e-05 19.0995 0.0494582 19.2187 0.137335 19.3066L10.9186 30.0879C11.0065 30.1757 11.1257 30.2251 11.25 30.2251C11.3743 30.2251 11.4935 30.1757 11.5814 30.0879L27.0501 14.6191C27.1381 14.5312 27.1875 14.412 27.1875 14.2877ZM11.25 29.0936L1.13155 18.9752L16.1316 3.9752H25.5872L22.3842 7.17817C21.8983 6.85656 21.3103 6.72687 20.7342 6.81426C20.1581 6.90164 19.635 7.19987 19.2663 7.65111C18.8976 8.10234 18.7097 8.67441 18.7389 9.25636C18.7681 9.83832 19.0125 10.3887 19.4245 10.8007C19.8365 11.2127 20.3869 11.457 20.9688 11.4863C21.5508 11.5155 22.1229 11.3276 22.5741 10.9589C23.0253 10.5902 23.3235 10.0671 23.4109 9.491C23.4983 8.9149 23.3686 8.32688 23.047 7.84098L26.25 4.63801V14.0936L11.25 29.0936ZM22.5 9.13145C22.5 9.40958 22.4175 9.68146 22.263 9.91272C22.1085 10.144 21.8888 10.3242 21.6319 10.4307C21.3749 10.5371 21.0922 10.5649 20.8194 10.5107C20.5466 10.4564 20.296 10.3225 20.0994 10.1258C19.9027 9.92915 19.7688 9.67858 19.7145 9.40579C19.6603 9.13301 19.6881 8.85026 19.7945 8.5933C19.901 8.33634 20.0812 8.11671 20.3125 7.96219C20.5437 7.80767 20.8156 7.7252 21.0937 7.7252C21.3026 7.72601 21.5085 7.77408 21.6961 7.86582L20.7623 8.79957C20.7176 8.84281 20.6819 8.89454 20.6573 8.95173C20.6327 9.00891 20.6198 9.07043 20.6192 9.13267C20.6187 9.19491 20.6306 9.25663 20.6541 9.31424C20.6777 9.37185 20.7125 9.42418 20.7565 9.46819C20.8005 9.51221 20.8529 9.54701 20.9105 9.57058C20.9681 9.59415 21.0298 9.60601 21.0921 9.60547C21.1543 9.60493 21.2158 9.592 21.273 9.56743C21.3302 9.54286 21.3819 9.50715 21.4251 9.46238L22.3594 8.5291C22.4511 8.7167 22.4992 8.92262 22.5 9.13145Z"
+                    fill="#141416"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_14_59">
+                    <rect
+                      width="30"
+                      height="30"
+                      fill="white"
+                      transform="translate(0 0.225098)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              <h3>Special Discounts</h3>
+              <p>Guaranteed saving all the time</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--our service end  -->
+    <footer>
+      <div class="footer-menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-12">
+              <div class="footer-header">
+                <h3>JOIN OUR VIP MAILING LIST</h3>
+                <p>
+                  We'll only send you the good stuff. (including $10 off your
+                  first order, latest style updates, plus VIP early access to
+                  our sales).
+                </p>
+                <form action="">
+                  <input
+                    type="text"
+                    name=""
+                    placeholder="you@domain.com"
+                    id=""
+                  />
+                  <button type="submit">SIGN UP</button>
+                </form>
+                <ul class="social-link d-flex list-unstyled">
+                  <li>
+                    <a href="#">
+                      <img src="./image/facebook.svg" alt="" srcset="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a #="#">
+                      <img src="./image/instagram.svg" alt="" srcset="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./image/youtube.svg" alt="" srcset="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./image/snapchat.svg" alt="" srcset="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./image/tweeter.svg" alt="" srcset="" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg col-6">
+              <div class="footer-content-menu">
+                <h4>COMPANY</h4>
+                <ul class="d-flex list-unstyled flex-column">
+                  <li><a href="#">About Morange</a></li>
+                  <li><a href="#">Our Values </a></li>
+                  <li><a href="#">Responsibility</a></li>
+                  <li><a href="#">Sourcing</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg col-6">
+              <div class="footer-content-menu">
+                <h4>CUSTOMER SERVICE</h4>
+                <ul class="d-flex list-unstyled flex-column">
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Privacy Policy </a></li>
+                  <li><a href="#">Terms And Condition</a></li>
+                  <li><a href="#">Shopping Policy</a></li>
+                  <li><a href="#">Return Policy</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg col-6">
+              <div class="footer-content-menu">
+                <h4>MORE</h4>
+                <ul class="d-flex list-unstyled flex-column">
+                  <li><a href="#">Wholesale</a></li>
+                  <li><a href="#">Affiliate Program </a></li>
+                  <li><a href="#">Size Gruide</a></li>
+                  <li><a href="#">Meet The Fabrics</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright form Zahidul.. 2024</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>>
+  </body>
+</html>
